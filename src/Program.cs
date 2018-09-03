@@ -6,13 +6,6 @@ namespace WavSplitter
     {
         static void Main(string[] args)
         {
-            // Console.WriteLine($"Loading file '{args[0]}'");
-            // Console.WriteLine($"sizeof(int): {sizeof(int)}");
-            // using (var reader = new WavFileReader(args[0]))
-            // {
-            //     reader.Describe();
-            // }
-
             var input = args[0];
             var blockSize = int.Parse(args[1]);
             var skip = int.Parse(args[2]);
